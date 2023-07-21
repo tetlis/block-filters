@@ -1,0 +1,17 @@
+[Adblock Plus 2.0]
+! Title: helloworldフィルタ
+! Homepage: http://example.com
+!
+! 最終更新 230722_0011
+!
+
+!2023/04/02 twitter API
+
+! ぷらいべったー
+! 維持？ https://twitter.com/privatter
+privatter.net##.col-md-4 > .hidden-print.clearfix
+privatter.net##.col-md-4 .hidden-print.clearfix + :is(table,div,p)
+privatter.net##[data-target="#adModal"]
+privatter.net##.“hidden-print”
+privatter.net##[href="/adcookie.php"]
+
